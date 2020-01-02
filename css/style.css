@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
+
+body{
+
+	font-family: 'Montserrat', sans-serif;
+	color: #66778e;
+	font-size: 14px;
+
+
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0a2345+0,020102+100 */
+background: rgb(10,35,69); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(10,35,69,1) 0%, rgba(2,1,2,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(10,35,69,1) 0%,rgba(2,1,2,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(10,35,69,1) 0%,rgba(2,1,2,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a2345', endColorstr='#020102',GradientType=0 ); /* IE6-9 */
+
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{
+	font-size: 40px;
+	color: #fff;
+}
+h1 span{
+	color: #2a5da3;
+}
+p{}
+.btn-custom{
+	border: 1px solid #2a5da3;
+	border-radius: 30px;
+	padding: 10px 30px;
+	color:#fff;
+	text-transform: capitalize;
+}
+.btn-custom:hover{
+	background: #2a5da3;
+	color: #fff;
+}
+
+.MusicApp{
+	background-image: url(../images/background.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	padding: 100px 0;
+}
+
+.MusicApp img{
+	transition: all 0.4s ease-in-out;
+}
+.MusicApp img:hover{
+	transform: translateY(-10px);
+}
+
+.headphone{
+	background-image: url(../images/headphone.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 50px 0px;
+	background-position: left center;
+}
+
+.features-section{
+	padding: 35px 0;
+	background-image: url(../images/phone.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: 550px;
+}
+h3{
+	font-size: 14px;
+	color: #fff;
+	padding-top: 24px;
+}
+.feature{
+}
+
+.features-section p{
+
+	padding-bottom: 50px;
+	margin-bottom: 0;
+}
+
+.graphic-section{
+	background-image: url(../images/graphic.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: contain;
+	padding: 50px 0;
+	margin: 80px 0;
+}
+
+.graphic-section img{
+	padding: 50px 0;
+}
+
+h2{
+	color: #fff;
+	font-size: 20px;
+	padding-bottom: 16px;
+}
+
+.feedback{
+	background-image: url(../images/layer.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 130px 0;
+
+}
+
+.feedback p{
+	padding: 0 200px;
+	line-height: 40px;
+	font-size: 18px;
+}
+
+.feedback img{
+	margin: 40px 20px;
+}
+
+.feedback h6{
+	font-size: 14px;
+	margin-top: 50px;
+}
+
+.feedback h6 span{
+	color: #0a2345;
+}
+
+.feedback ul{}
+
+.feedback ul li{
+	list-style-type: circle;
+	font-size: 25px;
+	color: #0a2345;
+	display: inline list-item;
+}
+
+.feedback ul li a{
+	transition-duration: 0.4s;
+}
+
+.feedback ul li a:hover{
+	
+	background-color: #0a2345;
+}
+
+.slider-section img{
+	height: 500px;
+    width: 300px;
+}
+
+
